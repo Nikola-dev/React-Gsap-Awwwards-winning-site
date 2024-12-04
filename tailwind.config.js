@@ -1,0 +1,57 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        zentry: ["zentry", "sans-serif"],
+        general: ["general", "sans-serif"],
+        "circular-web": ["circular-web", "sans-serif"],
+        "robert-medium": ["robert-medium", "sans-serif"],
+        "robert-regular": ["robert-regular", "sans-serif"],
+      },
+      colors: {
+        blue: {
+          50: "#DFDFF0",
+          75: "#dfdff2",
+          100: "#e6f2ff",
+          200: "#cce6ff",
+          300: "#b3d9ff",
+          400: "#99ccff",
+          500: "#80bfff",
+          600: "#66b3ff",
+          700: "#4da6ff",
+          800: "#339aff",
+          900: "#1a8cff",
+        },
+        violet: {
+          50: "#f2f0f5",
+          75: "#f2f0f5",
+          100: "#e6e0eb",
+          200: "#bfb0d6",
+          300: "#9980c2",
+          400: "#7240a6",
+          500: "#4c008b",
+          600: "#450080",
+          700: "#3d0074",
+          800: "#360069",
+          900: "#2e005d",
+        },
+        yellow: {
+          50: "#fff9e6",
+          75: "#fff9e6",
+          100: "#fff3cd",
+          200: "#ffe699",
+          300: "#ffd966",
+          400: "#ffcc33",
+          500: "#ffbf00",
+          600: "#e6ac00",
+          700: "#cc9900",
+          800: "#b38600",
+          900: "#996600",
+        },
+      },
+    },
+  },
+  plugins: [],
+};
